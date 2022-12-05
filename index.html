@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section>
+            <article class='portada'>
+                <div class='container-titulo'>
+                    <div class='container-titulo-principal'>
+                        <h1 class='diseño'>Diseño</h1>
+                        <h2 class='web'>Web</h2>
+                    </div>
+                    <h3 class='profesional'>Profesional</h3>
+                </div>
+                <p class='descripcion'>Tene tu página web a medida para llegar a más clientes</p>
+                <button class='boton-contacto'>
+                    <a class="link-contacto" href='#contacto'>Contactanos</a>
+                </button>
+            </article>
+
+            <article class='servicios'>
+                <h3 class='servicios-titulo'>Servicios</h3>
+                <div class='servicios-container'>
+                    <div class='flip-card'>
+                        <div class='flip-card-inner'>
+                            <div class='flip-card-front'>
+                                <img src='./assets/desarrolloweb.jpg' alt='desarrolloweb' >
+                            </div>
+                            <div class='flip-card-back'>
+                                <h3 class='flip-card-back-title'>Desarrollo Web</h3>
+                                <p class='flip-card-back-text'>Desarrollo y Diseño de sitio web personalizado para llegar a mas clientes</p>
+                                <p class='flip-card-back-items'>- Blogs</p>
+                                <p class='flip-card-back-items'>- E-commerce</p>
+                                <p class='flip-card-back-items'>- Landing Page</p>
+                                <p class='flip-card-back-items'>- Sitios estáticos</p>
+                            </div>
+                        </div>
+                        </div>
+                    <div class='flip-card'>
+                        <div class='flip-card-inner'>
+                            <div class='flip-card-front'>
+                                <img src='./assets/faceinsta.jpg' alt='faceinsta' >
+                            </div>
+                            <div class='flip-card-back'>
+                                <h3 class='flip-card-back-title'>Página Facebook / Instagram</h3>
+                                <p class='flip-card-back-text'>Creación de página de Facebook e Instagram para aumentar exposición en las redes sociales</p>
+                                <p class='flip-card-back-items'>- Creación Facebook</p>
+                                <p class='flip-card-back-items'>- Creación Instagram</p>
+                                <p class='flip-card-back-items'>- Creación de publicaciones</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='flip-card'>
+                        <div class='flip-card-inner'>
+                            <div class='flip-card-front'>
+                                <img src='./assets/mantenimiento.png' alt='mantenimiento' >
+                            </div>
+                            <div class='flip-card-back'>
+                                <h3 class='flip-card-back-title'>Mantenimiento de sitios web</h3>
+                                <p class='flip-card-back-text'>Encargados de hacer la manutención del sitio web, resolver conflictos y pagos mensuales de la pagina</p>
+                                <p class='flip-card-back-items'>- Pago de dominio </p>
+                                <p class='flip-card-back-items'>- Resolución de conflictos</p>
+                                <p class='flip-card-back-items'>- Pago de servicio de Hosting</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class='contacto' id='contacto'>
+                <h3 class='contacto-titulo'>Contacto</h3>
+                <form class='contacto-form' name="contact" netlify>
+                    <label class='contacto-form-label' for='nombre'>Nombre</label>
+                    <input class='contacto-form-input' type='text' name='nombre'  required>
+
+                    <label class='contacto-form-label' for='email'>Email</label>
+                    <input class='contacto-form-input' type='email' name='email'  required>
+
+                    <label class='contacto-form-label' for='asunto'>Asunto</label>
+                    <input class='contacto-form-input' type='text' name='asunto'  required>
+
+                    <label class='contacto-form-label' for='mensaje'>Mensaje</label>
+                    <textarea class='contacto-form-textarea' name='mensaje' required></textarea>
+
+                    <input class='contacto-form-enviar' type="submit" value="Enviar">
+                </form>
+            </article>
+
+        </section>
+    </main>
+</body>
+</html>
